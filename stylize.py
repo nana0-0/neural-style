@@ -8,7 +8,7 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 
-import vgg
+from . import vgg
 
 
 CONTENT_LAYERS = ('relu4_2', 'relu5_2')
